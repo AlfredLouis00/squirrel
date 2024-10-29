@@ -91,11 +91,11 @@ final class SquirrelInputController: IMKInputController {
       lastModifiers = modifiers
       rimeUpdate()
 
-    // case .keyDown:
-       // ignore Command+X hotkeys.
+    case .keyDown:
+    //   // ignore Command+X hotkeys.
     //   if modifiers.contains(.command) {
     //     break
-      }
+    //  }
 
       let keyCode = event.keyCode
       var keyChars = event.charactersIgnoringModifiers
