@@ -92,7 +92,7 @@ final class SquirrelInputController: IMKInputController {
       rimeUpdate()
 
     // case .keyDown:
-    //   // ignore Command+X hotkeys.
+       // ignore Command+X hotkeys.
     //   if modifiers.contains(.command) {
     //     break
       }
