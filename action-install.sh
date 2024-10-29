@@ -3,8 +3,8 @@
 set -e
 
 rime_version=latest
-rime_git_hash=24f0f7b
-sparkle_version=2.6.2
+rime_git_hash=b74f5fa
+sparkle_version=2.6.4
 
 rime_archive="rime-${rime_git_hash}-macOS-universal.tar.bz2"
 rime_download_url="https://github.com/rime/librime/releases/download/${rime_version}/${rime_archive}"
